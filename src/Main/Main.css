@@ -1,0 +1,23 @@
+:root {
+    --light-bg: #e4e4e4;
+    --light-text: black;
+    --dark-bg: #111;
+    --dark-text: white;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 ;
+    background-color: var(--light-bg);
+    color: var(--light-text);
+    min-height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+    overflow: hidden;
+}
+
+.main.dark {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
