@@ -44,10 +44,10 @@ const Login = () => {
         </header>
         <img 
         className='logo'
-        src='/src/assets/images/infinity.png'
+        src='/Images/infinity.png'
         />
 
-        <h2 className="title">Sub-Min Dashbord</h2>
+        <h2 className="title">Sub-Mini Dashbord</h2>
 
         <form onSubmit={(e)=>handleSubmit(e)}>
 
@@ -79,7 +79,7 @@ const Login = () => {
                  />
                 <label htmlFor="password">password</label>
             </div>
-            {errorImg && <img src="/src/assets/images/warning.png" alt="" className='status' />}
+            {errorImg && <img src="/Images/warning.png" alt="" className='status' />}
             {errorMsg && <span className="error">Proccess Failed {errorMsg}</span>}
             <button type='submit'>{NewUser ? "Sign Up" :"Log In"}</button>
         </form>

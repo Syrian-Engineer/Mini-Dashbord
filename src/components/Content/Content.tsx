@@ -27,7 +27,7 @@ import { GiSettingsKnobs } from "react-icons/gi";
 
 import Card from "../CardTemplate/Card";
 import Analytics from "../Analytics/Analytics";
-import img from "../../assets/images/illustration.png";
+import img from "/Images/illustration.png";
 import CircularProgress from "../circular-progress/CircularProgress"
 
 const Content = () => {

@@ -39,3 +39,7 @@
       stroke-dashoffset: var(--p);
     }
   }
+.svg-circle {
+    stroke: var(--clr);
+    stroke-dasharray: var(--p);
+  }

@@ -23,7 +23,6 @@ h2{
     font-size: 15px;
     font-family: math;
     font-weight: 500;
-    
 }
 
 .navigation.active h2{
@@ -32,5 +31,4 @@ h2{
 
 .icon{
     font-size: 20px;
-
 }

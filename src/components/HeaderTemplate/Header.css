@@ -76,7 +76,7 @@ header .tools .user{
     border: 1px solid var(--color);
     background-color: lightgray;
     cursor: pointer;
-    background-image: url("/src/assets/images/IMG_20231025_195533_009.jpg");
+    background-image: url("/Images/IMG_20231025_195533_009.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     

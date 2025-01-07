@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.login-page header span{
+    font-size: 20px;
+}
+
 .login-page header i{
     background: linear-gradient(90deg,#ff009d,#09b4c7);
     background-clip: text;

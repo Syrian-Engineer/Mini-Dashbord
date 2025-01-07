@@ -51,7 +51,7 @@ const Navigation = () => {
         <header>
           <div className="profile">
             <img 
-            src="/src/assets/images/IMG_20231025_195533_009.jpg" 
+            src="/Images/IMG_20231025_195533_009.jpg" 
             alt=""  
             className="profile-img"
             />
